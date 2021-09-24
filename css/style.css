@@ -190,3 +190,77 @@ header nav ul li a {
   width: calc(100% / 3);
 }
 
+/** clienti **/
+.clienti .title {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+/* quadrati tre colonne */
+.clienti .column.square, .clienti .column.text {
+  margin-bottom: 100px;
+  height: 30vw;
+} 
+
+.clienti .column.square {
+  width: 30vw;   
+}
+
+.clienti .column.text {
+  background-color: #F5F5F5;
+  width: calc(100% - 60vw)
+}
+
+.clienti .column.text {
+  overflow: auto;
+}
+
+/* inner row */
+.clienti .inner-row {
+  height: 50%;
+}
+
+.clienti .inner-row .small-square {
+  width: 50%;
+  height: 100%; 
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  fill: white;
+}
+
+/* sfondi quadrati */
+#designit {
+  background-color: #A2D39B;  
+}
+
+#asu {
+  background-color: #61082C;
+}
+
+#uf {
+  background-color: #1D93CE;   
+}
+
+#topps {
+  background-color: #F91C1D;  
+}
+
+#wbr {
+  background-color: #D5021F;  
+}
+
+#hearst-corp {
+  background-color: #B4D0E7;  
+}
+
+#lonely-planet {
+  background-color: #0D2481;  
+}
+
+#clear-channel {
+  background-color: #FED830;  
+}
