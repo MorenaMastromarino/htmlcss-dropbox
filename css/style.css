@@ -8,9 +8,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-img {
-  width: 100%;
-}
 
 .clearfix::after {
   content: '';
@@ -23,6 +20,13 @@ img {
   margin: 0 auto;
 }
 
+img {
+  width: 100%;
+}
+
+.column {
+  float: left;
+}
 
 .btn {
   text-decoration: none;
@@ -106,7 +110,6 @@ header nav ul li a {
 
 /* left column */
 .jumbotron-text {
-  float: left;
   width: 30%;
 }
 
@@ -132,14 +135,10 @@ header nav ul li a {
 
 /* right column */
 .jumbotron-image {
-  float: left;
   width: 64%;
   margin-left: 6%;  
 }
 
-.jumbotron-image img {
-  width: 100%;
-}
 
 /**** MAIN ****/
 /** abbonamenti **/
@@ -161,22 +160,17 @@ header nav ul li a {
   margin-bottom: 50px;
 }
 
-.abbonamenti .box.small{
-  float: left;  
+.abbonamenti .box.column{
   width: calc((100% - 60px) / 3);
 }
 
-.abbonamenti .box.small:nth-child(2) {
+.abbonamenti .box.column:nth-child(2) {
   margin: 0 30px;
 }
 
 /** partner **/
 .partner {
   margin-top: 100px;
-}
-
-.partner .image, .partner .text {
-  float: left;
 }
 
 .partner .image {
@@ -187,4 +181,12 @@ header nav ul li a {
   width: 40%;
 }
 
+/** servizi **/
+.servizi h2 {
+  margin-top: 100px;
+}
+
+.servizi .row .column {
+  width: calc(100% / 3);
+}
 
