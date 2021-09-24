@@ -8,6 +8,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 .clearfix::after {
   content: '';
   display: table;
@@ -32,6 +36,12 @@ body {
   display: inline-block;
   font-size: 16px;
   padding: 10px 20px;
+}
+
+.btn.white {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 
@@ -131,8 +141,8 @@ header nav ul li a {
   width: 100%;
 }
 
-/* MAIN */
-/* abbonamenti */
+/**** MAIN ****/
+/** abbonamenti **/
 .abbonamenti h2 {
   font-size: 40px;
   margin-top: 150px;
@@ -145,7 +155,7 @@ header nav ul li a {
   margin-bottom: 40px;
 }
 
-/* box */
+/* abbonamenti-box */
 .abbonamenti .box {
   border: 1px solid grey;
   margin-bottom: 50px;
@@ -160,5 +170,21 @@ header nav ul li a {
   margin: 0 30px;
 }
 
+/** partner **/
+.partner {
+  margin-top: 100px;
+}
+
+.partner .image, .partner .text {
+  float: left;
+}
+
+.partner .image {
+  width: 60%;
+}
+
+.partner .text {
+  width: 40%;
+}
 
 
