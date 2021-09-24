@@ -181,6 +181,7 @@ header nav ul li a {
   width: 40%;
 }
 
+
 /** servizi **/
 .servizi h2 {
   margin-top: 100px;
@@ -190,15 +191,15 @@ header nav ul li a {
   width: calc(100% / 3);
 }
 
+
 /** clienti **/
 .clienti .title {
   margin-top: 100px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 /* quadrati tre colonne */
 .clienti .column.square, .clienti .column.text {
-  margin-bottom: 100px;
   height: 30vw;
 } 
 
@@ -242,15 +243,18 @@ svg {
 }
 
 #uf {
-  background-color: #1D93CE;   
+  background-color: #E26C31;
+  filter: invert(1);   
 }
 
 #topps {
-  background-color: #F91C1D;  
+  background-color: #06E3E2;
+  filter: invert(1);  
 }
 
 #wbr {
-  background-color: #D5021F;  
+  background-color: #2AFDE0;
+  filter: invert(1);  
 }
 
 #hearst-corp {
@@ -263,4 +267,16 @@ svg {
 
 #clear-channel {
   background-color: #FED830;  
+}
+
+/**prova gratuita**/
+.prova {
+  background-color: #B4D0E7;
+  height: 300px;
+  padding-top: 100px;
+}
+
+.prova .btn {
+  border: none;
+  float: right;
 }
