@@ -122,6 +122,7 @@ header nav ul li a {
   padding-bottom: 30px; 
 }
 
+
 /* left column */
 .jumbotron-text {
   width: 30%;
@@ -303,8 +304,14 @@ header nav ul li a {
 
 /** clienti **/
 .clienti .title {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.clienti .title h2 {
+  font-size: 36px;
+  width: 55%;
+  padding-bottom: 35px;
 }
 
 /* quadrati tre colonne */
@@ -323,7 +330,22 @@ header nav ul li a {
 
 .clienti .column.text {
   overflow: auto;
+  padding: 50px;
 }
+
+.clienti .column.text img {
+  width: 30%;
+}
+
+.clienti .column.text .rule {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.clienti .column.text p {
+  padding-bottom: 50px;
+}
+
 
 /* inner row */
 .clienti .inner-row {
@@ -381,13 +403,23 @@ svg {
 /**prova gratuita**/
 .prova {
   background-color: #B4D0E7;
-  height: 300px;
-  padding-top: 100px;
+  height: 350px;
+  padding-top: 130px;
+}
+
+.prova .column {
+  width: 50%;
+}
+
+.prova h2 {
+  font-size: 40px;
+  color: #61082C;
 }
 
 .prova .btn {
   border: none;
   float: right;
+  padding: 13px 60px;
 }
 
 /** faq **/
