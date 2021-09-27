@@ -256,15 +256,26 @@ header nav ul li a {
 
 /** partner **/
 .partner {
-  margin-top: 100px;
+  padding-top: 150px;
 }
 
 .partner .image {
   width: 60%;
+  padding-right: 50px;
 }
 
 .partner .text {
   width: 40%;
+  padding-top: 50px;
+}
+
+.partner .text h3 {
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.partner .text p {
+  padding-bottom: 25px;
 }
 
 
