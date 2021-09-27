@@ -66,8 +66,8 @@ header {
   left: 0;
   width: 100%;
   height: 80px;
-  line-height: 80px;
-  padding: 0 15px;
+  line-height: 78px;
+  padding: 0 15px 2px;
   z-index: 500;
   background-color: white;
 }
@@ -98,10 +98,14 @@ header nav ul li {
 
 header nav ul li a {
   display: inline-block;
-  line-height: 80px;
+  line-height: 78px;
   vertical-align: middle;
   text-decoration: none;
   color: black;
+}
+
+header nav ul li a:hover {
+  border-bottom: 2px solid black;
 }
 
 
