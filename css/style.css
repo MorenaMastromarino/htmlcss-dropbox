@@ -48,6 +48,16 @@ img {
   border: 1px solid black;
 }
 
+.rule {
+  height: 1px;
+  width: 50px;
+  background-color: grey;
+}
+
+.blue-link {
+  color: #0061FF;
+}
+
 
 /* HEADER */
 header {
@@ -97,26 +107,24 @@ header nav ul li a {
 
 /* JUMBOTRON */
 .jumbotron {  
-  background-color: #B4D0E6;
   height: 660px;
-  margin: 80px auto;
-  
+  margin-top: 80px;  
+  background-color: #B4D0E6;
 }
 
 .jumbotron .container {
   width: 70%;
 }
 
-
-/* left column */
-.jumbotron-text {
-  width: 30%;
-}
-
 .jumbotron h1 {
   font-size: 80px;
   padding-top: 50px;
   padding-bottom: 30px; 
+}
+
+/* left column */
+.jumbotron-text {
+  width: 30%;
 }
 
 .jumbotron .btn.big {
@@ -142,31 +150,93 @@ header nav ul li a {
 
 /**** MAIN ****/
 /** abbonamenti **/
+.abbonamenti {
+  padding-top: 150px;
+}
+
 .abbonamenti h2 {
   font-size: 40px;
-  margin-top: 150px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .abbonamenti .fatturazione {
   display: inline-block;
   padding-right: 15px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 /* abbonamenti-box */
 .abbonamenti .box {
   border: 1px solid grey;
-  margin-bottom: 50px;
-}
-
-.abbonamenti .box.column{
-  width: calc((100% - 60px) / 3);
 }
 
 .abbonamenti .box.column:nth-child(2) {
   margin: 0 30px;
 }
+
+.abbonamenti .box.column {
+  min-height: 1200px;
+  width: calc((100% - 60px) / 3);
+  margin-bottom: 50px;
+}
+
+.abbonamenti .box .column-title {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+}
+
+.abbonamenti .box .column-body {
+  padding: 0 30px;
+}
+
+.abbonamenti .box h3 {
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.abbonamenti .box h4.price {
+  padding-bottom: 15px;
+}
+
+.abbonamenti .box.column .pagamento {
+  color: grey;
+  padding-bottom: 40px;
+}
+
+.box.column .utenti, .box.column .archiviazione {
+  padding-bottom: 30px;
+}
+
+.abbonamenti .box.column .btn {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.abbonamenti .box.column .rule {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* abbonamenti-box lista*/
+.abbonamenti .piano-promozione h4 {
+  padding-bottom: 25px;
+}
+
+.abbonamenti .piano-promozione ul li {
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.abbonamenti .piano-promozione ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f00c';
+  font-weight: bold;
+  color: #0061FF;
+  padding-right: 5px;
+}
+
 
 /** partner **/
 .partner {
@@ -335,8 +405,7 @@ footer .column ul li {
   line-height: 25px;
 }
 
-.rule {
-  height: 1px;
+footer .rule {  
   width: 110px;
   margin-top: 100px;
   margin-bottom: 40px;
